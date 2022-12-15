@@ -9,8 +9,6 @@ public class Main {
     public String ANSI_YELLOW = "\u001B[33m";
     public static void main(String[] args) {
 
-
-
         System.out.println("Main.main()");
         Main newmain = new Main();
         
@@ -18,7 +16,6 @@ public class Main {
         List<Integer> indexes = newmain.checkArray(arr);
 
         newmain.view(arr,  indexes);
-    
     }
 
     public List<Integer> checkArray(Integer[] arr){
@@ -48,7 +45,6 @@ public class Main {
                 }
             else 
                 System.out.print(arr[i] + " ");
-   
         }
     }
 }
